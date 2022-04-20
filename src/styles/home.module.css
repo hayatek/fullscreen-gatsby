@@ -1,0 +1,47 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+  z-index: 2;
+}
+.header h2 {
+  position: relative;
+  font-size: 4em;
+}
+.header h3 {
+  position: relative;
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* .header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+} */
+
+.btn {
+  position: relative;
+  display: inline-block;
+  background: #d42990;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
