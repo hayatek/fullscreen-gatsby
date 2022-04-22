@@ -23,21 +23,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: 2;
+  opacity: 0.8;
 }
 
-/* .header .overlay {
+.header .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
-  mix-blend-mode: overlay;
-} */
+  background: #000;
+  z-index: 3;
+  /* background: #03a9f4; */
+  /* mix-blend-mode: overlay; */
+}
 
 .btn {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   background: #d42990;
   padding: 10px 16px;

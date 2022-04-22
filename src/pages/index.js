@@ -11,10 +11,10 @@ export default function Home() {
           {/* <video muted loop autoplay>
             <source src="/stars.mp4" type="video/mp4" />
           </video> */}
-          {/* <video autoPlay loop muted playsInline>
+          <video autoPlay loop muted playsInline>
             <source src="/sea.mp4" />
-          </video> */}
-          {/* <div className="overlay"></div> */}
+          </video>
+          <div className="overlay"></div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>web developer</p>
